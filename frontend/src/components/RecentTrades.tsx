@@ -107,7 +107,7 @@ export default function RecentTrades() {
         <div className="w-full mt-8">
             {/* Header */}
             <div className="flex items-center justify-between mb-4">
-                <h2 className="text-xl font-semibold">Recent Trades</h2>
+                <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-100">Recent Trades</h2>
                 <div className="flex items-center gap-2">
                     <span className="text-xs text-neutral-500">
                         Showing {trades.length} of {MAX_TRADES} trades
