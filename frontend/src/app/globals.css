@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Flash animations for new trade price */
+@keyframes price-flash-green {
+    0% { color: #16a34a; }
+    100% { color: inherit; }
+}
+
+@keyframes price-flash-red {
+    0% { color: #dc2626; }
+    100% { color: inherit; }
+}
+
+.flash-green {
+    animation: price-flash-green 300ms ease-in-out;
+}
+
+.flash-red {
+    animation: price-flash-red 300ms ease-in-out;
+}
+
