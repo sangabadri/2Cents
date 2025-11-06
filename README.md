@@ -39,6 +39,3 @@ Recommended Next.js production flags are already set in `next.config.ts` to redu
 - If the order book appears inconsistent after load, the manager will attempt to refetch a snapshot and retry sequence alignment. If retries fail, it will reconnect to resync.
 - If you run into CORS/network issues fetching the REST snapshot, check your network or deploy to Vercel where outbound requests are allowed.
 
-## License
-
-MIT
