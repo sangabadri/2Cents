@@ -30,3 +30,6 @@ npm start
 
 ## Deployment
 Production: https://2-cents-six.vercel.app/
+
+## Icon Credits
+BNB icon created by [bouzix](https://www.flaticon.com/authors/bouzix) - Flaticon
